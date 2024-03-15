@@ -220,13 +220,21 @@ body{
 
 }
 
-.link img{
+.link a img{
     width: 30px;
     height: 30px;
 
     margin: 10px;
     filter: brightness(.8);
+    transition: all .3s ease;
 }
+
+.link a img:hover{
+    transform: scale(1.15);
+    filter:brightness(1);
+}
+
+/*Final da primeira página*/
 
 @keyframes written_text {
     100%{
